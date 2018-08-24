@@ -1,0 +1,8 @@
+12 sh(x+iy) = shx cosy + i chx siny
+ch(x+iy) = chx cosy + i shx siny
+th(x+iy) = (sh2x + i sin2y)/(ch2x + cos2y)
+cth(x+iy) = (sh2x - i sin2y)/(ch2x - cos2y)
+sin(x+iy) = sinx chy + i cosx shy
+cos(x+iy)= cosx chy - i sinx shy
+tg(x+iy) = (sin2÷ + i sh2y)/(cos2x+ch2y)
+ctg(x+iy)=(sin2x-i sh2y)/(ch2y-cos2x)

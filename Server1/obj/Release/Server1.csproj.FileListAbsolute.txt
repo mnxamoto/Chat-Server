@@ -1,0 +1,11 @@
+D:\C#\Server1\Server1\bin\Release\Server1.exe.config
+D:\C#\Server1\Server1\bin\Release\Server1.exe
+D:\C#\Server1\Server1\bin\Release\Server1.pdb
+D:\C#\Server1\Server1\obj\Release\Server1.exe
+D:\C#\Server1\Server1\obj\Release\Server1.pdb
+D:\C#\Чат\Server\Server1\bin\Release\Server1.exe.config
+D:\C#\Чат\Server\Server1\obj\Release\Server1.exe
+D:\C#\Чат\Server\Server1\obj\Release\Server1.pdb
+D:\C#\Чат\Server\Server1\obj\Release\Server1.csprojResolveAssemblyReference.cache
+D:\C#\Чат\Server\Server1\bin\Release\Server1.exe
+D:\C#\Чат\Server\Server1\bin\Release\Server1.pdb

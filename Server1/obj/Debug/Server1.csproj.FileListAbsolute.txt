@@ -1,0 +1,7 @@
+D:\C#\Server1\Server1\bin\Debug\Server1.exe.config
+D:\C#\Чат\Server\Server1\bin\Debug\Server1.exe.config
+D:\C#\Чат\Server\Server1\bin\Debug\Server1.exe
+D:\C#\Чат\Server\Server1\bin\Debug\Server1.pdb
+D:\C#\Чат\Server\Server1\obj\Debug\Server1.exe
+D:\C#\Чат\Server\Server1\obj\Debug\Server1.pdb
+D:\C#\Чат\Server\Server1\obj\Debug\Server1.csprojResolveAssemblyReference.cache

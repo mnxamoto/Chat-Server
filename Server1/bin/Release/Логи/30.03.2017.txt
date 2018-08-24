@@ -1,0 +1,8 @@
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 216

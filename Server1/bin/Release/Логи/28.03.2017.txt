@@ -1,0 +1,397 @@
+[00:00:05] Лог сервера:
+К чату подключился: moto [176.194.55.142:58614]
+!логины|moto|
+moto выгрузил на сервер файл: Page 2.png
+К чату подключился: moto2 [176.194.55.142:58619]
+!логины|moto|moto2|
+[00:01:06] moto2 : привет
+[00:01:48] moto2 : пока
+[00:01:51] moto2 : ага
+От чата отключился: moto2
+!логины|moto|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 208
+[00:08:05] Лог сервера:
+К чату подключился: moto [176.194.55.142:58855]
+!логины|moto|
+К чату подключился: moto2 [176.194.55.142:58856]
+!логины|moto|moto2|
+[00:08:21] moto2 : привет
+[00:08:25] moto : [00:08:25] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[00:08:29] moto : а?
+[00:08:32] moto : что?
+К чату подключился: moto2 [176.194.55.142:58874]
+!логины|moto|moto2|moto|
+От чата отключился: moto2
+!логины|moto|moto|
+[00:09:03] moto : [00:09:03] moto : [00:09:03] moto : [00:09:03] moto : [00:09:03] moto : [00:09:03] moto : [00:09:03] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+От чата отключился: moto
+!логины|moto|
+[00:09:04] moto : [00:09:04] moto : [00:09:04] moto : [00:09:04] moto : [00:09:04] moto : [00:09:04] moto : [00:09:04] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+К чату подключился: moto [176.194.55.142:58888]
+!логины|moto|moto|
+[00:09:24] Лог сервера:
+К чату подключился: moto2 [176.194.55.142:58959]
+!логины|moto2|
+К чату подключился: moto [176.194.55.142:58960]
+!логины|moto2|moto|
+[00:09:39] moto2 : привет
+[00:09:45] moto : [00:09:45] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+К чату подключился: moto [176.194.55.142:58961]
+!логины|moto2|moto|moto|
+[00:10:09] moto2 : как
+[00:10:16] moto2 : авыаы
+[00:10:18] moto : [00:10:18] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[00:12:48] Лог сервера:
+К чату подключился: moto [176.194.55.142:59138]
+!логины|moto|
+К чату подключился: moto2 [176.194.55.142:59139]
+!логины|moto|moto2|
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+К чату подключился: moto2 [176.194.55.142:59142]
+!логины|moto|moto2|moto|
+[00:13:44] moto : привет
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+От чата отключился: moto
+!логины|moto2|moto|
+[00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : [00:17:04] moto2 : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[00:25:49] Лог сервера:
+К чату подключился: moto2 [176.194.55.142:59397]
+!логины|moto2|
+К чату подключился: moto [176.194.55.142:59398]
+!логины|moto2|moto|
+[00:26:11] moto2 : привет
+[00:26:50] moto : [00:26:50] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+К чату подключился: moto [176.194.55.142:59426]
+!логины|moto2|moto|moto|
+[00:27:38] moto2 : привет
+[00:28:40] moto : [00:28:40] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+От чата отключился: moto2
+!логины|moto|moto|
+[00:41:52] moto : [00:41:52] moto : [00:41:52] moto : [00:41:52] moto : [00:41:52] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+К чату подключился: moto [176.194.55.142:59615]
+!логины|moto|moto|moto|
+К чату подключился: moto [176.194.55.142:59616]
+!логины|moto|moto|moto|moto2|
+[00:42:10] moto : Привет!
+[00:42:14] moto : хей!
+[00:42:18] moto : как дела?
+[00:42:21] moto : норм
+[00:42:29] moto : а у тебя?
+От чата отключился: moto
+!логины|moto|moto|moto2|
+[00:42:37] moto : [00:42:37] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+От чата отключился: moto
+!логины|moto|moto2|
+[00:42:38] moto : [00:42:38] moto : [00:42:38] moto : [00:42:38] moto : [00:42:38] moto : [00:42:38] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[00:42:47] Лог сервера:
+К чату подключился: moto [176.194.55.142:59839]
+!логины|moto|
+От чата отключился: moto
+!логины|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 208
+К чату подключился: moto [176.194.55.142:59906]
+!логины|moto|
+К чату подключился: HD_HOUSE [176.194.55.142:50835]
+!логины|moto|HD_HOUSE|
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[01:02:04] moto : hi
+К чату подключился: HD_HOUSE [176.194.55.142:59943]
+!логины|moto|HD_HOUSE|moto|
+[01:02:51] moto : hi
+От чата отключился: HD_HOUSE
+!логины|moto|moto|
+[01:02:53] moto : [01:02:53] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+От чата отключился: moto
+!логины|moto|
+[01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : [01:02:55] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[01:03:18] Лог сервера:
+К чату подключился: HD_HOUSE [176.194.55.142:50844]
+!логины|HD_HOUSE|
+К чату подключился: moto [50.47.77.123:63293]
+!логины|HD_HOUSE|moto|
+К чату подключился: moto [176.194.55.142:60008]
+!логины|HD_HOUSE|moto|moto|
+От чата отключился: moto
+!логины|HD_HOUSE|moto|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 208
+[01:03:47] Лог сервера:
+К чату подключился: HD_HOUSE [176.194.55.142:50846]
+!логины|HD_HOUSE|
+К чату подключился: moto [176.194.55.142:60125]
+!логины|HD_HOUSE|moto|
+[01:04:24] moto : Привет
+[01:04:42] moto : Как дела?
+От чата отключился: HD_HOUSE
+!логины|moto|
+[01:04:49] moto : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[01:07:49] moto : Где все люди?
+От чата отключился: moto
+!логины|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 208
+[12:32:23] Лог сервера:
+[18:05:37] Лог сервера:
+К чату подключился: moto [176.194.55.142:51622]
+!логины|moto|
+К чату подключился: HD_HOUSE [176.194.55.142:53704]
+!логины|moto|HD_HOUSE|
+moto выгрузил на сервер файл: IMAG2558.jpg
+[18:21:56] moto : 
+"!загрузитьIMAG2558.jpg[18:22:02] moto : без "
+[18:22:11] moto : где
+[18:22:14] moto : перенос
+[18:22:17] moto : на след строку?
+moto выгрузил на сервер файл: IMAG2559.jpg
+moto выгрузил на сервер файл: Конспекты (качественные).rar
+[18:25:13] moto : краш тест
+[18:26:03] moto : Кто сломался?
+HD_HOUSE выгрузил на сервер файл: Особенности архиваторов.docx
+От чата отключился: moto
+!логины|HD_HOUSE|
+[18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : [18:38:04] HD_HOUSE : Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в D:\C#\Чат\Server\Server1\Program.cs:строка 237
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 81
+[19:24:03] Лог сервера:
+К чату подключился: moto [176.194.55.142:52837]
+!логины|moto|
+!файлы|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\IMAG2558.jpg|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\IMAG2559.jpg|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\Конспекты (качественные).rar|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\Особенности архиваторов.docx|
+От чата отключился: moto
+!логины|
+!файлы|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\IMAG2558.jpg|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\IMAG2559.jpg|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\Конспекты (качественные).rar|D:\C#\Чат\Server\Server1\bin\Release\Выгрузки\Особенности архиваторов.docx|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+[19:27:26] Лог сервера:
+К чату подключился: moto [176.194.55.142:53094]
+!логины|moto|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+[19:41:23] Лог сервера:
+К чату подключился: moto [176.194.55.142:53424]
+!логины|moto|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+!размерыФайлов|1516280|1688595|23966608|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+!размерыФайлов|1516280|1688595|23966608|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 216
+К чату подключился: moto [176.194.55.142:53528]
+!логины|moto|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+!размерыФайлов|1516280|1688595|23966608|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|IMAG2559.jpg|Конспекты (качественные).rar|Особенности архиваторов.docx|
+!размерыФайлов|1516280|1688595|23966608|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 216
+[19:47:29] Лог сервера:
+К чату подключился: moto [176.194.55.142:53756]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:53891]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54021]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54026]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54033]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54138]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54160]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+К чату подключился: moto [176.194.55.142:54175]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 212
+[20:21:39] Лог сервера:
+К чату подключился: moto [176.194.55.142:54287]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|
+moto выгрузил на сервер файл: тригонометрические.txt
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+От чата отключился: moto
+!логины|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в SocketServer.Program.ReceiveAndSend() в D:\C#\Чат\Server\Server1\Program.cs:строка 216
+К чату подключился: moto [176.194.55.142:54352]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Конспекты (качественные).rar|23966608|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+[20:59:58] Лог сервера:
