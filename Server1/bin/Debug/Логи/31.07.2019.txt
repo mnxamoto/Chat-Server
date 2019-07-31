@@ -1,0 +1,43 @@
+[02:55:07] Лог сервера:
+"К чату подключился: moto [127.0.0.1:44578]\r\n"["moto"]"К чату подключился: moto2 [127.0.0.1:44579]\r\n"["moto","moto2"]Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+"[02:56:54] moto : тест2\r\n\r\n""[02:57:00] moto : тест2\r\n\r\n""[02:57:04] moto : тест2\r\n\r\n""[02:57:13] moto : тест2\r\n\r\n""[02:57:16] moto : тест2\r\n\r\n""От чата отключился: moto\r\n"["moto2"][{"name":"IMAG2558.jpg","size":1516280},{"name":"IMAG2559.jpg","size":1688595},{"name":"Особенности архиваторов.docx","size":30600},{"name":"тригонометрические.txt","size":308}]Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[03:15:13] Лог сервера:
+"К чату подключился: moto [127.0.0.1:44672]\r\n"
+["moto"]
+"К чату подключился: moto2 [127.0.0.1:44673]\r\n"
+["moto","moto2"]
+"[03:16:48] moto : тест1\r\n"
+"[03:17:07] moto2 : тест2\r\n"
+"От чата отключился: moto\r\n"
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Send(Byte[] buffer)
+   в SocketServer.Program.Send(String commanda, Object messageObject) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 335
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 125
+"От чата отключился: moto\r\n"
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Send(Byte[] buffer)
+   в SocketServer.Program.Send(String commanda, Object messageObject) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 335
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 125
+[03:39:10] Лог сервера:
+"К чату подключился: moto [127.0.0.1:44809]\r\n"
+["moto"]
+"К чату подключился: moto2 [127.0.0.1:44810]\r\n"
+["moto","moto2"]
+"От чата отключился: moto\r\n"
+["moto2"]
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ObnovlenieInfo(Socket client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 305
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 113
+"От чата отключился: moto2\r\n"
+[]
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Send(Byte[] buffer)
+   в SocketServer.Program.Send(String commanda, Object messageObject) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 339
+   в SocketServer.Program.ObnovlenieInfo(Socket client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 303
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 113
+[04:04:05] Лог сервера:

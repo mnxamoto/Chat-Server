@@ -1,0 +1,46 @@
+[00:03:09] Лог сервера:
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 96
+[00:34:38] Лог сервера:
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 96
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[00:39:58] Лог сервера:
+[01:18:11] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[01:21:21] Лог сервера:
+[01:29:36] Лог сервера:
+Индекс находился вне границ массива.
+   в SocketServer.Program.fileMsgStringArray() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 325
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 114
+[01:31:21] Лог сервера:
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 96
+[01:33:34] Лог сервера:
+[01:36:30] Лог сервера:
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 96
+[03:07:39] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.fileMsgStringArray() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 302
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 114
+[03:19:57] Лог сервера:
+[05:05:20] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[05:16:28] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[05:18:52] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100

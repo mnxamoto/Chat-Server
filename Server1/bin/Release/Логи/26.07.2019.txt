@@ -1,0 +1,29 @@
+[21:56:00] Лог сервера:
+[22:11:33] Лог сервера:
+[22:12:39] Лог сервера:
+К чату подключился: moto [169.254.144.201:15155]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+[22:13:46] moto : тест
+[22:13:48] moto : тест2
+[22:28:37] moto : тест3
+От чата отключился: moto
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 258
+!логины|
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.Send(String message) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 258
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 113
+К чату подключился: moto [169.254.144.201:15377]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+[22:40:11] Лог сервера:
+К чату подключился: moto [169.254.144.201:15553]
+!логины|moto|
+!файлы|IMAG2558.jpg|1516280|IMAG2559.jpg|1688595|Особенности архиваторов.docx|30600|тригонометрические.txt|308|
+[23:25:00] moto : ntcn
+[23:25:01] moto : тест

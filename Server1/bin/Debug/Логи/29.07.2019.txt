@@ -1,0 +1,76 @@
+[03:57:29] Лог сервера:
+К чату подключился: moto2 [127.0.0.1:32785]
+|moto2|
+|
+Error converting value "commanda" to type 'Server1.Packet'. Path '', line 1, position 10.
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+К чату подключился: moto2 [127.0.0.1:32803]
+|moto2|moto|
+|
+Error converting value "commanda" to type 'Server1.Packet'. Path '', line 1, position 10.
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+К чату подключился: moto2 [127.0.0.1:32819]
+|moto2|moto|moto|
+|
+Error converting value "commanda" to type 'Server1.Packet'. Path '', line 1, position 10.
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+[04:08:56] Лог сервера:
+К чату подключился: moto [127.0.0.1:32848]
+|moto|
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 113
+К чату подключился: moto [127.0.0.1:32860]
+|moto|moto|
+|
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 100
+[04:15:11] Лог сервера:
+К чату подключился: moto [127.0.0.1:32863]
+|moto|
+|
+От чата отключился: moto
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Send(Byte[] buffer)
+   в SocketServer.Program.Send(String commanda, String messageString) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 346
+|
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Send(Byte[] buffer)
+   в SocketServer.Program.Send(String commanda, String messageString) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 346
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 121
+[22:32:27] Лог сервера:
+К чату подключился: moto [127.0.0.1:37377]
+|moto|
+|
+[23:06:31] Лог сервера:
+[23:06:56] Лог сервера:
+К чату подключился: moto [127.0.0.1:37510]
+System.String[]
+System.IO.FileInfo[]
+Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 96
+К чату подключился: moto [127.0.0.1:37514]
+System.String[]
