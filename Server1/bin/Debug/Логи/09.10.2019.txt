@@ -1,0 +1,255 @@
+[21:32:33] Лог сервера:
+An error occurred while executing the command definition. See the inner exception for details.
+   в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в SocketServer.Program.searchUser(String name) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 180
+   в SocketServer.Program.registration(User user) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 142
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 240
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 494
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 226
+[21:34:03] Лог сервера:
+[21:40:14] Лог сервера:

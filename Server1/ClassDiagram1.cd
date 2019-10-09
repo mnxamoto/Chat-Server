@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Server1.User">
+    <Position X="10" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server1.Packet">
+    <Position X="7.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQACAAAAA=</HashCode>
+      <FileName>Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server1.FileInfoKratko">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server1.Client">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQA=</HashCode>
+      <FileName>Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServer.Ciphers.Kuznyechik">
+    <Position X="9.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAAgCAAAAAAEAAgAAAAAIgAAAAAEBSAgQA=</HashCode>
+      <FileName>Ciphers\Kuznyechik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServer.Ciphers.Magma">
+    <Position X="2" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAABAAABAAAAAAAAAQAAQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Ciphers\Magma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServer.Ciphers.Stribog">
+    <Position X="6.25" Y="6.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="SocketServer.Ciphers.Stribog.lengthHash" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ciphers\Stribog.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABAAAAQAAAABAAAAAAAAiKAAAAAgTAAAA=</HashCode>
+      <FileName>Ciphers\Stribog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServer.Program">
+    <Position X="2" Y="0.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>gQAQAAAAAAAYCAAQAEAAAAAgAAEAIAgAAQQIBBAAAgA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -15,3 +15,15 @@ C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.pdb
 C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Newtonsoft.Json.dll
 C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Newtonsoft.Json.xml
 C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.csproj.CopyComplete
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.Common.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SqlClient.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\chat.db
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\EntityFramework.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\EntityFramework.xml
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SQLite.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SQLite.xml
+C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\System.Data.SQLite.dll.config

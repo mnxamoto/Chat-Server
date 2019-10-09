@@ -1,0 +1,210 @@
+[01:52:49] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 104
+[01:55:02] Лог сервера:
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 95
+[01:57:32] Лог сервера:
+"К чату подключился: moto [127.0.0.1:59113]\r\n"
+["moto"]
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 95
+[01:59:32] Лог сервера:
+"К чату подключился: moto [127.0.0.1:59134]\r\n"
+["moto"]
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 95
+[02:02:24] Лог сервера:
+"К чату подключился: moto [127.0.0.1:59163]\r\n"
+["moto"]
+Unterminated string. Expected delimiter: ". Path '', line 1, position 9.
+   в Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   в Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   в Newtonsoft.Json.JsonTextReader.ReadAsString()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+"К чату подключился: moto [127.0.0.1:59184]\r\n"
+["moto"]
+"[02:11:05] moto : Кузнечик\r\n"
+Unterminated string. Expected delimiter: ". Path '', line 1, position 9.
+   в Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   в Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   в Newtonsoft.Json.JsonTextReader.ReadAsString()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+"К чату подключился: moto [127.0.0.1:59205]\r\n"
+["moto"]
+[02:15:40] Лог сервера:
+"К чату подключился: moto [127.0.0.1:59225]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 293
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[02:27:11] Лог сервера:
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 293
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[02:36:41] Лог сервера:
+"К чату подключился: moto [127.0.0.1:59505]\r\n"
+["moto"]
+Unterminated string. Expected delimiter: ". Path '', line 1, position 9.
+   в Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   в Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   в Newtonsoft.Json.JsonTextReader.ReadAsString()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+Ссылка на объект не указывает на экземпляр объекта.
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 95
+"К чату подключился: moto [127.0.0.1:59522]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+"К чату подключился: moto [127.0.0.1:59569]\r\n"
+["moto"]
+"[02:48:55] moto : тест\r\n"
+Unterminated string. Expected delimiter: ". Path '', line 1, position 9.
+   в Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   в Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   в Newtonsoft.Json.JsonTextReader.ReadAsString()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+[20:29:09] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63353]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[20:37:24] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63446]\r\n"
+["moto"]
+Additional text encountered after finished reading JSON content: O. Path '', line 1, position 14.
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+"К чату подключился: moto [127.0.0.1:63451]\r\n"
+["moto"]
+[20:44:16] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63483]\r\n"
+["moto"]
+Additional text encountered after finished reading JSON content: O. Path '', line 1, position 14.
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+"К чату подключился: moto [127.0.0.1:63487]\r\n"
+["moto"]
+"[20:46:50] moto : Кузнечик\r\n"
+[20:55:40] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63592]\r\n"
+["moto"]
+"[20:57:11] moto : Кузнечик\r\n"
+"[20:57:47] moto : 12345678901234567890\r\n"
+Индекс и длина должны указывать на позицию в строке.
+Имя параметра: length
+   в System.String.Substring(Int32 startIndex, Int32 length)
+   в SocketServer.Program.Decrypt(Packet packet, Byte[] key) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 343
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+"К чату подключился: moto [127.0.0.1:63597]\r\n"
+["moto"]
+Индекс и длина должны указывать на позицию в строке.
+Имя параметра: length
+   в System.String.Substring(Int32 startIndex, Int32 length)
+   в SocketServer.Program.Decrypt(Packet packet, Byte[] key) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 343
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+"К чату подключился: moto [127.0.0.1:63626]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[21:20:03] Лог сервера:
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[21:26:55] Лог сервера:
+[21:41:32] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63938]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+"К чату подключился: moto [127.0.0.1:63955]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[21:46:59] Лог сервера:
+"К чату подключился: moto [127.0.0.1:63983]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+[22:03:11] Лог сервера:
+"К чату подключился: moto [127.0.0.1:64072]\r\n"
+["moto"]
+"[22:05:16] moto : Кузнечик\r\n"
+Additional text encountered after finished reading JSON content: ┼. Path '', line 1, position 14.
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 99
+[22:15:52] Лог сервера:
+"К чату подключился: moto [127.0.0.1:64177]\r\n"
+["moto"]
+"[22:17:04] moto : Кузнечик\r\n"
+"[22:17:13] moto : 12345678901234567890\r\n"
+Индекс и длина должны указывать на позицию в строке.
+Имя параметра: length
+   в System.String.Substring(Int32 startIndex, Int32 length)
+   в SocketServer.Program.Decrypt(Packet packet, Byte[] key) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 343
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 98
+"К чату подключился: moto [127.0.0.1:64276]\r\n"
+["moto"]
+Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   в SocketServer.Program.GetPacket(Client client) в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 295
+   в SocketServer.Program.ReceiveAndSend() в C:\Репозитории\C#\Chat-Server\Server1\Program.cs:строка 93
+"К чату подключился: moto [127.0.0.1:64318]\r\n"
+["moto"]
