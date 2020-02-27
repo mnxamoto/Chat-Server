@@ -13,6 +13,7 @@ namespace Server1
     {
         public string commanda;
         public string cipher;
+        public long timeSend;
         public byte[] data;
     }
 

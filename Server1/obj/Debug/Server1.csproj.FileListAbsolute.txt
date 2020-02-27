@@ -9,7 +9,6 @@ C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Server1.exe.config
 C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Server1.exe
 C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Server1.pdb
 C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.csprojAssemblyReference.cache
-C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.csproj.CoreCompileInputs.cache
 C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.exe
 C:\Репозитории\C#\Chat-Server\Server1\obj\Debug\Server1.pdb
 C:\Репозитории\C#\Chat-Server\Server1\bin\Debug\Newtonsoft.Json.dll

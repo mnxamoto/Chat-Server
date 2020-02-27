@@ -13,6 +13,8 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Windows;
 using System.ComponentModel;
+using Server1.DB;
+using System.Security.Cryptography;
 
 namespace SocketServer
 {
@@ -30,7 +32,7 @@ namespace SocketServer
         /// <summary>
         /// База данных
         /// </summary>
-        ApplicationContext db;
+        //DatabaseContext db = new DatabaseContext();
 
         static string fileNameDB;
 
@@ -71,7 +73,6 @@ namespace SocketServer
             {
                 Task.Factory.StartNew(() =>
                 {
-                    program.db = new ApplicationContext();
                     program.ReceiveAndSend();
                 }); //Создание и запуск нового потока
 
@@ -144,8 +145,17 @@ namespace SocketServer
                 return false;
             }
 
+            using (var db = new DatabaseContext())
+            {
+                db.Users.Add(user);
+                db.SaveChanges();
+            }
+
+            /*
             db.Users.Add(user);
             db.SaveChanges();
+            */
+
             return true;
             
         }
@@ -176,8 +186,14 @@ namespace SocketServer
 
             return null;
             */
-            
-            User user = db.Users.First(d => d.Name == name);
+
+            User user;
+
+            using (var db = new DatabaseContext())
+            {
+                user = db.Users.FirstOrDefault(d => d.Name == name);
+            }
+
             return user;
             
         }
@@ -232,7 +248,7 @@ namespace SocketServer
                                 message = Decrypt(packet, clients[i].user.key); //Дешифруем данные из пакета с помощью ключа
                                 message = JsonConvert.DeserializeObject<string>(message); //Десериализуем данные из формата Json в string
                                 message = "[" + DateTime.Now.ToString("HH:mm:ss") + "] " + clients[i].user.Name + " : " + message; //Прикрепляем время
-                                Send("Сообщение", message, packet.cipher); //Отправляем присланное сообщение всем клиентам
+                                Send("Сообщение", message, packet); //Отправляем присланное сообщение всем клиентам
                                 break;
                             case "Регистрация":
                                 user = getUser(packet.data);
@@ -405,7 +421,7 @@ namespace SocketServer
                                 break;
                         }
                     }
-                    catch (Exception ex)
+                     catch (Exception ex)
                     {
                         Console.Write(ex.Message + "\r\n" + ex.StackTrace + "\r\n");
                         File.AppendAllText(Directory.GetCurrentDirectory() + "\\Логи\\" + DateTime.Now.ToString("dd.MM.yyyy") + ".txt", ex.Message + "\r\n" + ex.StackTrace + "\r\n");
@@ -574,6 +590,41 @@ namespace SocketServer
                     result = Encoding.GetEncoding(866).GetString(dataD);
                     result = result.Replace("┼", "");
                     break;
+                case "AES":
+                    //Аналогично Кузнечику
+                    sizeBlock = 16;
+
+                    Aes aes = Aes.Create();
+                    aes.Mode = CipherMode.ECB;
+                    aes.KeySize = 256;
+                    aes.BlockSize = sizeBlock * 8;
+                    aes.Key = key;
+                    aes.Padding = PaddingMode.Zeros;
+
+                    ICryptoTransform encryptor = aes.CreateDecryptor();
+
+                    dataD = new byte[packet.data.Length];
+
+                    for (int i = 0; i < packet.data.Length; i += sizeBlock)
+                    {
+                        byte[] data8bytes = new byte[sizeBlock];
+
+                        for (int k = 0; k < sizeBlock; k++)
+                        {
+                            data8bytes[k] = packet.data[k + i];
+                        }
+
+                        byte[] dataD8bytes = encryptor.TransformFinalBlock(data8bytes, 0, sizeBlock);
+
+                        for (int k = 0; k < sizeBlock; k++)
+                        {
+                            dataD[k + i] = dataD8bytes[k];
+                        }
+                    }
+
+                    result = Encoding.GetEncoding(866).GetString(dataD);
+                    result = result.Replace("┼", "");
+                    break;
                 default:
                     result = null;
                     break;
@@ -662,6 +713,45 @@ namespace SocketServer
                         }
                     }
                     break;
+                case "AES":
+                    //Аналогично Кузнечику
+                    sizeBlock = 16;
+
+                    Aes aes = Aes.Create();
+                    aes.Mode = CipherMode.ECB;
+                    aes.KeySize = 256;
+                    aes.BlockSize = sizeBlock * 8;
+                    aes.Key = key;
+                    aes.Padding = PaddingMode.Zeros;
+
+                    ICryptoTransform encryptor = aes.CreateEncryptor();
+
+                    while (data.Length % sizeBlock != 0)
+                    {
+                        data += "┼";
+                    }
+
+                    dataBytes = Encoding.GetEncoding(866).GetBytes(data);
+                    result = new byte[dataBytes.Length];
+
+                    for (int i = 0; i < dataBytes.Length; i += sizeBlock)
+                    {
+                        byte[] data8bytes = new byte[sizeBlock];
+
+                        for (int k = 0; k < sizeBlock; k++)
+                        {
+                            data8bytes[k] = dataBytes[k + i];
+                        }
+
+                        byte[] dataE8bytes = encryptor.TransformFinalBlock(data8bytes, 0, sizeBlock);
+
+                        for (int k = 0; k < sizeBlock; k++)
+                        {
+                            result[k + i] = dataE8bytes[k];
+                        }
+                    }
+                    break;
+
                 default:
                     result = null;
                     break;
@@ -696,6 +786,38 @@ namespace SocketServer
             {
                 //Зашифровываем данные
                 packet.data = Encrypt(messageString, clients[k].user.key, cipher);
+
+                //Сериализуем пакет в Json
+                string packetString = JsonConvert.SerializeObject(packet);
+                //Кодируем Json в массив байт
+                byte[] packetBytes = Encoding.GetEncoding(866).GetBytes(packetString);
+
+                //Отправляем массив байт клиенту
+                clients[k].socket.Send(packetBytes);
+            }
+        }
+
+        private static void Send(string commanda, object messageObject, Packet packetSourse)
+        {
+            //Сериализуем данные в Json
+            string messageString = JsonConvert.SerializeObject(messageObject);
+
+            //Записываем логи и историю
+            Console.WriteLine(messageString);
+            File.AppendAllText(Directory.GetCurrentDirectory() + "\\Логи\\" + DateTime.Now.ToString("dd.MM.yyyy") + ".txt", messageString + "\r\n");
+            history += messageString;
+
+            //Формируем пакет
+            Packet packet = new Packet();
+            packet.commanda = commanda;
+            packet.cipher = packetSourse.cipher;
+            packet.timeSend = packetSourse.timeSend;
+
+            //Перебираем всех клиентов...
+            for (int k = 0; k < clients.Count; k++)
+            {
+                //Зашифровываем данные
+                packet.data = Encrypt(messageString, clients[k].user.key, packet.cipher);
 
                 //Сериализуем пакет в Json
                 string packetString = JsonConvert.SerializeObject(packet);
@@ -754,6 +876,7 @@ namespace SocketServer
                 "Выберите локальную конечную точку для сокета:\r\n" +
                 "1. 127.0.0.1\r\n" +
                 "2. 192.168.0.101\r\n" +
+                "3. 192.168.0.105\r\n" +
                 "или введите вручную\r\n");
 
             string ipHostString = Console.ReadLine();
@@ -766,6 +889,9 @@ namespace SocketServer
                     break;
                 case "2":
                     ipHost = Dns.GetHostEntry("192.168.0.101");
+                    break;
+                case "3":
+                    ipHost = Dns.GetHostEntry("192.168.0.105");
                     break;
                 default:
                     ipHost = Dns.GetHostEntry(ipHostString);

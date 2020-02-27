@@ -73,10 +73,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationContext.cs" />
     <Compile Include="Ciphers\Kuznyechik.cs" />
     <Compile Include="Ciphers\Magma.cs" />
     <Compile Include="Ciphers\Stribog.cs" />
+    <Compile Include="DB\DatabaseContext.cs" />
+    <Compile Include="DB\SQLiteConfiguration.cs" />
     <Compile Include="Packet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
