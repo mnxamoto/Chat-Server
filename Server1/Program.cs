@@ -568,25 +568,7 @@ namespace SocketServer
                     //Аналогично Кузнечику
                     Magma magma = new Magma();
                     sizeBlock = 8;
-                    dataD = new byte[packet.data.Length];
-
-                    for (int i = 0; i < packet.data.Length; i += sizeBlock)
-                    {
-                        byte[] data8bytes = new byte[sizeBlock];
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            data8bytes[k] = packet.data[k + i];
-                        }
-
-                        byte[] dataD8bytes = magma.Decode(data8bytes, key);
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            dataD[k + i] = dataD8bytes[k];
-                        }
-                    }
-
+                    dataD = magma.Decode(packet.data, key);
                     result = Encoding.GetEncoding(866).GetString(dataD);
                     result = result.Replace("┼", "");
                     break;
@@ -603,25 +585,7 @@ namespace SocketServer
 
                     ICryptoTransform encryptor = aes.CreateDecryptor();
 
-                    dataD = new byte[packet.data.Length];
-
-                    for (int i = 0; i < packet.data.Length; i += sizeBlock)
-                    {
-                        byte[] data8bytes = new byte[sizeBlock];
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            data8bytes[k] = packet.data[k + i];
-                        }
-
-                        byte[] dataD8bytes = encryptor.TransformFinalBlock(data8bytes, 0, sizeBlock);
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            dataD[k + i] = dataD8bytes[k];
-                        }
-                    }
-
+                    dataD = encryptor.TransformFinalBlock(packet.data, 0, packet.data.Length);
                     result = Encoding.GetEncoding(866).GetString(dataD);
                     result = result.Replace("┼", "");
                     break;
@@ -634,7 +598,7 @@ namespace SocketServer
         }
 
         /// <summary>
-        /// Зашифратор
+        /// Шифратор
         /// </summary>
         /// <param name="data"></param>
         /// <param name="key"></param>
@@ -694,24 +658,7 @@ namespace SocketServer
                     }
 
                     dataBytes = Encoding.GetEncoding(866).GetBytes(data);
-                    result = new byte[dataBytes.Length];
-
-                    for (int i = 0; i < dataBytes.Length; i += sizeBlock)
-                    {
-                        byte[] data8bytes = new byte[sizeBlock];
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            data8bytes[k] = dataBytes[k + i];
-                        }
-
-                        byte[] dataE8bytes = magma.Encode(data8bytes, key);
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            result[k + i] = dataE8bytes[k];
-                        }
-                    }
+                    result = magma.Encode(dataBytes, key);
                     break;
                 case "AES":
                     //Аналогично Кузнечику
@@ -732,26 +679,8 @@ namespace SocketServer
                     }
 
                     dataBytes = Encoding.GetEncoding(866).GetBytes(data);
-                    result = new byte[dataBytes.Length];
-
-                    for (int i = 0; i < dataBytes.Length; i += sizeBlock)
-                    {
-                        byte[] data8bytes = new byte[sizeBlock];
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            data8bytes[k] = dataBytes[k + i];
-                        }
-
-                        byte[] dataE8bytes = encryptor.TransformFinalBlock(data8bytes, 0, sizeBlock);
-
-                        for (int k = 0; k < sizeBlock; k++)
-                        {
-                            result[k + i] = dataE8bytes[k];
-                        }
-                    }
+                    result = encryptor.TransformFinalBlock(dataBytes, 0, dataBytes.Length);
                     break;
-
                 default:
                     result = null;
                     break;
