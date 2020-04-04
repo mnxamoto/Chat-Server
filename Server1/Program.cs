@@ -241,6 +241,12 @@ namespace SocketServer
                         //...получаем пакет из буфера входящего потока
                         Packet packet = GetPacket(clients[i]);
 
+                        //Проверка ЭЦП
+                        if ((packet.EDS != GetEDS(packet.data)) && false)
+                        {
+                            continue;
+                        }
+
                         //В зависимости от команды, выполняется то или иное действие
                         switch (packet.commanda)
                         {
@@ -689,6 +695,23 @@ namespace SocketServer
             return result;
         }
 
+        private static byte[] GetEDS(byte[] data)
+        {
+            byte[] EDS = new byte[data.Length];
+
+            for (int i = 0; i < data.Length / 32; i += 32)
+            {
+                byte[] iData = data.Skip(i).Take(32).ToArray();
+
+                Stribog stribog = new Stribog(Stribog.lengthHash.Length256);
+                byte[] iEDS = stribog.GetHash(iData);
+
+                EDS.Concat(iEDS);
+            }
+
+            return EDS;
+        }
+
         /// <summary>
         /// Отправляет пакет всем клиентам
         /// </summary>
@@ -709,6 +732,7 @@ namespace SocketServer
             Packet packet = new Packet();
             packet.commanda = commanda;
             packet.cipher = cipher;
+            packet.EDS = GetEDS(packet.data);
 
             //Перебираем всех клиентов...
             for (int k = 0; k < clients.Count; k++)

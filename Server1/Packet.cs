@@ -15,6 +15,7 @@ namespace Server1
         public string cipher;
         public long timeSend;
         public byte[] data;
+        public byte[] EDS;
     }
 
     /// <summary>
